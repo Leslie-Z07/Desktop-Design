@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/main.css"> 
+</head> 
+
+<style> 
+body{background-color: #FEECE2;}  
+</style>    
+
+<style> 
+a { 
+    cursor: pointer;
+} 
+</style> 
+
+<style> 
+.header-main { 
+    width: 100%; 
+    height: 115px; 
+    background-color: white; 
+    display: flex; 
+    justify-content: space-between; 
+}
+</style>  
+
+<style> 
+.header-main-logo {  
+    width: fit-content;
+    width: 120px; 
+    height: 100%; 
+} 
+</style>
+
+<style> 
+.header-main-nav { 
+    width: 120px; 
+}
+</style>  
+
+<style> 
+.header-main-nav ul { 
+    list-style: none; 
+} 
+
+.header-main-nav ul li { 
+    display: inline; 
+    float: left; 
+}
+     
+
+.header-main-nav ul li a {  
+    padding: 0 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 60px;
+}
+    
+</style>
+
+<style> 
+.header-main-logo { 
+    width: fit-content; 
+    height: 100%; 
+    padding-left: 60px;
+    display: flex; 
+}   
+
+.header-main-logo img { 
+    align-self: center;
+}
+
+.header-main-nav { 
+    width: fit-content; 
+    height: 100%; 
+} 
+
+.header-main-account { 
+    width: fit-content; 
+    height: 100%; 
+    padding-right: 60px; 
+    display: flex;  
+    align-items: center; 
+    column-gap: 10px;
+} 
+</style> 
+
+</style> 
+
+<style> 
+.header-main-account-user { 
+    width: 50px; 
+    height: 50px; 
+    background-image: url(images/user.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.header-main-account-shopping { 
+    width: 55px; 
+    height: 55px; 
+    background-image: url(images/shopping-bag.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+} 
+</style> 
+
+<style> 
+
+#slider { 
+    overflow: hidden; 
+} 
+
+#slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0; 
+    left: 0; 
+    animation: 20s slider infinite;
+}
+
+#slider figure img { 
+    float: left; 
+    width: 20%;
+}
+
+@keyframes slider { 
+    0% { 
+        left: 0;
+    } 
+    20% { 
+        left: 0;
+    } 
+    25% { 
+        left: -100%;
+    } 
+    45% { 
+        left: -100%;
+    } 
+    50% { 
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    } 
+    75% { 
+        left: -300%;
+    } 
+    95% { 
+        left: -300%;
+    } 
+    100% { 
+        left: -400%; 
+    }
+}
+
+</style> 
+
+<style> 
+.index-description { 
+    width: 100%; 
+    padding: 60px 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    font-family: cursive; 
+    font-size: 50px;
+}
+</style> 
+
+<style> 
+.flex-icons{ 
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    margin: 10px;
+} 
+
+.flex-pie{ 
+    width: 10px; 
+    height: 10x;
+} 
+
+.flex-cupcake{ 
+    width: 10px; 
+    height: 10px;
+} 
+
+.flex-cookie{ 
+    width: 10px; 
+    height: 10px;
+} 
+
+.flex-cake{ 
+    width: 10px; 
+    height: 10px;
+} 
+</style>
+
+<header class="header-main"> 
+    <div class="header-main-logo">    
+        <img src="images/ms. Jackson's logo.png" width="160" height="100" alt="logo"></div>
+        <nav class="header-main-nav"> 
+            <ul> 
+                <li><a href="#">ABOUT US</a></li>  
+                <li><a href="#">FAQs</a></li>   
+                <li><a href="#">PIES</a></li>   
+                <li><a href="#">CAKES</a></li>   
+                <li><a href="#">CUPCAKES</a></li>   
+                <li><a href="#">COOKIES</a></li>  
+            </ul>
+        </nav> 
+</div> 
+    <div class="header-main-account">
+        <div class="header-main-account-user"></div>
+        <div class="header-main-account-shopping"></div>
+    </div> 
+</header>
+
+<div id="slider"> 
+    <figure> 
+        <img src="images/lemon cake.jpg"> 
+        <img src="images/strawberry cupcakes.jpg"> 
+        <img src="images/tart.jpg"> 
+        <img src="images/chocolate pie copy.jpg"> 
+        <img src="images/lemon cake.jpg"> 
+    </figure>
+</div>
+
+<section class="index-description"> 
+    <div class="wrapper.main"> 
+        <p>"Step into a world where every bite is an experience <br><br> 
+            
+            and let Ms. Jackson's bakery be your destination <br><br>
+
+            for delectable moments."
+        </p>
+        
+    </div> 
+</section>
+
+<div class="flex-icons"> 
+    <div class="flex-pie"> 
+        <img src="images/pie icon.png">
+    </div>
+    <div class="flex-cupcake"> 
+        <img src="images/cupcake icon.png">
+    </div>
+    <div class="flex-cookie"> 
+        <img src="images/cookie icon.png">
+    </div>
+    <div class="flex-pie"> 
+        <img src="images/cake icon.png">
+    </div>
+</div>
+
+
+<body> 
+
+
+</body> 
+
+</html>
