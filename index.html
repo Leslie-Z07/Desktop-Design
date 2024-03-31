@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> 
     <link rel="stylesheet" href="css/reset.css"> 
-    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/main.css">  
+    <script src="https://kit.fontawesome.com/6ee8b7b925.js" crossorigin="anonymous"></script>
 </head> 
 
 <style> 
@@ -167,7 +168,7 @@ a {
     display: flex; 
     justify-content: center; 
     align-items: center;  
-    font-family: cursive; 
+    font-family: 'Times New Roman', serif; 
     font-size: 50px;
 }
 </style> 
@@ -176,7 +177,6 @@ a {
 div.container{ 
     display: inline-block; 
     padding: 50px; 
-
 }
 
 p{ 
@@ -184,14 +184,196 @@ p{
     font-size: 40px;
 } 
 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Roboto, bold condensed; 
+}
+
+.container-two{ 
+    margin: 100px auto;  
+    width: 75%;
+} 
+
 .image-five{ 
     float: left; 
-    margin-top: 700px; 
+    margin-right: 20px;
+} 
+
+.text-one{ 
+    font-size: 50px; 
+    padding: 5px;  
+    text-align: center; 
+    font-family: 'Roboto Condensed,' bold;
+} 
+
+.text-one p{ 
+    font-size: 22px; 
+    padding: 6px; 
+    float: left; 
+    font-family: 'Roboto';
 }
 
 .image-six{ 
-    float: right; 
-    margin-top: 195px;
+    float: left; 
+    margin-top: 160px; 
+    left: 15px;
+}  
+
+body-one{ 
+    float: left;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin-top: 200px;
+}
+
+.container-three{ 
+    margin: 150px auto; 
+    width: 70%;
+}
+
+.text-two{ 
+    font-size: 50px; 
+    padding: 5px;   
+    text-align: center;
+} 
+
+.text-two p{ 
+    font-size: 35px; 
+    padding: 6px; 
+    float: auto; 
+    font-family: 'Roboto';
+} 
+
+.pie-title{ 
+    margin-top: 900px; 
+    text-align: center; 
+    font-size: 50px;
+}
+
+.container-four{ 
+    height: auto; 
+    position: relative; 
+}  
+
+.container-four img{ 
+    display: block; 
+    margin: auto; 
+    margin-top: 50px;
+}  
+
+.text-three{ 
+    text-align: center; 
+    margin-bottom: 70px; 
+    font-family: 'Roboto,' bold;
+} 
+
+body-three{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto,' bold;
+}  
+
+footer{ 
+    background: #7e6363; 
+    color: black; 
+    padding: 2rem 16vw;
+} 
+
+.newsletter{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    font-family: 'Roboto';
+}
+
+.newsletter h2{ 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+.newsletter span:nth-child(2){ 
+    font-size: 12px; 
+    font-weight: 300;
+} 
+
+.newsletter form{ 
+    margin: 20px 0px;
+} 
+
+.newsletter form input{ 
+    height: 40px; 
+    width: 17vw; 
+    padding: 0 15px; 
+    outline: none;
+} 
+
+.newsletter form button{ 
+    height: 40px; 
+    width: 5rem; 
+    color: white; 
+    background-color: black; 
+    border: none;
+} 
+
+.social-icons{ 
+    display: flex; 
+} 
+
+.social-icons li{ 
+    list-style: none; 
+    margin: 0 12px;
+} 
+
+.social-icons li a{ 
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+}
+
+.social-icons li a:hover{ 
+    color: white; 
+} 
+
+hr{ 
+    background-color: white; 
+    border: 1px solid white; 
+    margin: 30px 0;
+}  
+
+.main{ 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    padding: 0 30px;
+}
+
+.links{ 
+    margin: 10px 0;
+} 
+
+.links h6{ 
+    font-size: 14px;
+} 
+
+.links ul{ 
+    margin: 10px 0;
+} 
+
+.links li{ 
+    list-style: none; 
+    margin: 4px 0;
+} 
+
+.links li a{ 
+    font-size: 13px; 
+    text-decoration: none; 
+    color: black; 
+    transition: 0.3s ease;
 }
 
 </style>
@@ -261,8 +443,127 @@ p{
         </div> 
         </div> 
 
-        <img class="image-five" src="images/chocolate cookies.jpg" width="200px;">  
-        <img class="image-six" src="images/small cake.jpg" width="200px;">  
+        <div class="container-two">
+        <img class="image-five" src="images/chocolate cookies.jpg" width="400px;">  
+     </div> 
+     <div class="text-one"> 
+        <h2>OPENING HOURS</h2><hr> 
+        <p>Mon-Fri: 8:00 AM-6:00 PM <br></br>  
+           Sat: 9:00 AM-5:00 PM <br></br> 
+           Sun: CLOSED 
+        </p>  
+     </div> 
+    </div> 
+    <img class="image-six" src="images/small cake.jpg" width="300px;">  
+</div> 
+
+<body-one> 
+    <div class="container-three"> 
+        <img class="image-five" src="images/Mrs.Jackson.jpg" width="400px;"> 
+    </div> 
+    <div class="text-two"> 
+        <h3 style="margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto Serif'; font-size: 86px;">Our Story</h3>
+        <p>Rooted in generations of family recipes and 
+        childhood memories of baking with her beloved 
+        grandmother, Ms. Jackson has turned her 
+        passion into a thriving bake shop. Inheriting her 
+        family's legacy, she has preserved the essence  
+        of warmth and heartfelt traditions. 
+        </p> 
+        <button style="font-size: 25px; background-color: #7e6363; color: white; border-radius: 3px; border-width: 5px; margin-left: 5px;">Learn More</button>
+    </div>
+</body-one>
+    
+<div class="pie-title">
+<h4 style="margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto Serif'; font-size: 86px;">Todays Specialty</h4>
+</div> 
+        
+<body-two> 
+    <div class="container-four"> 
+        <img src="images/Brownie-Pie.jpg" width="600px;">  
+    </div>
+</body-two>
+
+<div class="text-three">
+    <p>Explore our Frequently Asked Questions 
+        below to find answers to common 
+        queries.</p> 
+    <button style="font-size: 25px; background-color: #7e6363; color: white; border-radius: 3px; border-width: 5px; margin-left: 5px;">FAQs</button>
+</div>
+
+<body-three> 
+<footer> 
+    <div class="newsletter"> 
+        <h4> 
+            <span>Join Our Newsletter</span>
+            <span>Be the first to know about new arrivals and delightful updates. Join our community and savor the joy of staying connected 
+                with all things Ms. Jackson's Bakery. 
+            </span> 
+        </h4>
+        <form action="?"> 
+            <input type="Email" placeholder="Enter your email"> 
+            <button type="submit">Join</button> 
+        </form> 
+        <ul class="social-icons"> 
+            <li> 
+                <a href="#"> 
+                    <i class="fa-brands fa-facebook"></i> 
+                </a>
+            </li> 
+            <li> 
+                <a href="#"> 
+                    <i class="fa-brands fa-instagram"></i> 
+                </a>
+            </li>
+        </ul>
+        </div>  
+
+        <hr>
+
+        <div class="main"> 
+            <h2 class="footer-logo"> <img src="images/ms. Jackson's logo.png" width="160" height= "100" alt="logo-footer"></h2> 
+            <div class="links"> 
+                <h6>CONTACT</h6> 
+                <ul> 
+                    <li> 
+                        <a>717-458-3429</a>
+                    </li> 
+                    <li> 
+                        <a href="#">Ms.JacksonsBakery@gmail.com</a>
+                    </li> 
+                </ul>
+            </div> 
+            <div class="links"> 
+                <h6>LOCATION</h6> 
+                <ul> 
+                    <li> 
+                        <a>4854 Stout Street, Lancaster, PA 17602</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="links"> 
+                <h6>OPENING HOURS</h6> 
+                <ul> 
+                    <li> 
+                        <a>Mon-Fri: 8:00 AM-6:00 PM</a>
+                    </li> 
+                    <li> 
+                        <a>Sat: 9:00 AM-5:00 PM</a>
+                    </li>  
+                    <li> 
+                        <a>Sun: CLOSED</a>
+                    </li> 
+                </ul>
+            </div>
+        </div> 
+        
+        <hr> 
+
+        <div class="copyright"> 
+            <p>COPYRIGHT 2024 Ms. Jackson's Bakery</p>
+        </div>
+    </footer>
+</body-three>
 
 <body> 
 
