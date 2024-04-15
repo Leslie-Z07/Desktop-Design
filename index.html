@@ -4,383 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Homepage</title> 
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/main.css">  
-    <script src="https://kit.fontawesome.com/6ee8b7b925.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ee8b7b925.js" crossorigin="anonymous"></script> 
+    <link href="style.css" rel="stylesheet"> 
 </head> 
-
-<style> 
-body{background-color: #FEECE2;}  
-</style>    
-
-<style> 
-a { 
-    cursor: pointer;
-} 
-</style> 
-
-<style> 
-.header-main { 
-    width: 100%; 
-    height: 115px; 
-    background-color: white; 
-    display: flex; 
-    justify-content: space-between; 
-}
-</style>  
-
-<style> 
-.header-main-logo {  
-    width: fit-content;
-    width: 120px; 
-    height: 100%; 
-} 
-</style>
-
-<style> 
-.header-main-nav { 
-    width: 120px; 
-}
-</style>  
-
-<style> 
-.header-main-nav ul { 
-    list-style: none; 
-} 
-
-.header-main-nav ul li { 
-    display: inline; 
-    float: left; 
-}
-     
-
-.header-main-nav ul li a {  
-    padding: 0 10px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    line-height: 60px;
-}
-    
-</style>
-
-<style> 
-.header-main-logo { 
-    width: fit-content; 
-    height: 100%; 
-    padding-left: 60px;
-    display: flex; 
-}   
-
-.header-main-logo img { 
-    align-self: center;
-}
-
-.header-main-nav { 
-    width: fit-content; 
-    height: 100%; 
-} 
-
-.header-main-account { 
-    width: fit-content; 
-    height: 100%; 
-    padding-right: 60px; 
-    display: flex;  
-    align-items: center; 
-    column-gap: 10px;
-} 
-</style> 
-
-</style> 
-
-<style> 
-.header-main-account-user { 
-    width: 50px; 
-    height: 50px; 
-    background-image: url(images/user.png); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-.header-main-account-shopping { 
-    width: 55px; 
-    height: 55px; 
-    background-image: url(images/shopping-bag.png); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-} 
-</style> 
-
-<style> 
-
-#slider { 
-    overflow: hidden; 
-} 
-
-#slider figure {
-    position: relative; 
-    width: 500%;
-    margin: 0; 
-    left: 0; 
-    animation: 20s slider infinite;
-}
-
-#slider figure img { 
-    float: left; 
-    width: 20%;
-}
-
-@keyframes slider { 
-    0% { 
-        left: 0;
-    } 
-    20% { 
-        left: 0;
-    } 
-    25% { 
-        left: -100%;
-    } 
-    45% { 
-        left: -100%;
-    } 
-    50% { 
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    } 
-    75% { 
-        left: -300%;
-    } 
-    95% { 
-        left: -300%;
-    } 
-    100% { 
-        left: -400%; 
-    }
-}
-
-</style> 
-
-<style> 
-.index-description { 
-    width: 100%; 
-    padding: 60px 0; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;  
-    font-family: 'Times New Roman', serif; 
-    font-size: 50px;
-}
-</style> 
-
-<style> 
-div.container{ 
-    display: inline-block; 
-    padding: 50px; 
-}
-
-p{ 
-    text-align: center;
-    font-size: 40px;
-} 
-
-*{ 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    font-family: Roboto, bold condensed; 
-}
-
-.container-two{ 
-    margin: 100px auto;  
-    width: 75%;
-} 
-
-.image-five{ 
-    float: left; 
-    margin-right: 20px;
-}  
-
-.image-six{ 
-    margin-bottom: 50px;
-}
-
-.text-one{ 
-    font-size: 50px; 
-    padding: 5px;  
-    text-align: center; 
-    font-family: 'Roboto Condensed,' bold;
-} 
-
-.text-one p{ 
-    font-size: 22px; 
-    padding: 6px; 
-    float: left; 
-    font-family: 'Roboto';
-}
-
-.image-six{ 
-    float: left; 
-    margin-top: 160px; 
-    left: 15px;
-}  
-
-body-one{ 
-    float: left;
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh; 
-    margin-top: 200px;
-}
-
-.container-three{ 
-    margin: 150px auto; 
-    width: 70%;
-}
-
-.text-two{ 
-    font-size: 50px; 
-    padding: 5px;   
-    text-align: center;
-} 
-
-.text-two p{ 
-    font-size: 35px; 
-    padding: 6px; 
-    float: auto; 
-    font-family: 'Roboto';
-} 
-
-.pie-title{ 
-    margin-top: 900px; 
-    text-align: center; 
-    font-size: 50px;
-}
-
-.container-four{ 
-    height: auto; 
-    position: relative; 
-}  
-
-.container-four img{ 
-    display: block; 
-    margin: auto; 
-    margin-top: 50px;
-}  
-
-.text-three{ 
-    text-align: center; 
-    margin-bottom: 70px; 
-    font-family: 'Roboto,' bold;
-} 
-
-body-three{ 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    font-family: 'Roboto,' bold;
-}  
-
-footer{ 
-    background: #7e6363; 
-    color: black; 
-    padding: 2rem 16vw;
-} 
-
-.newsletter{ 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-wrap: wrap; 
-    font-family: 'Roboto';
-}
-
-.newsletter h2{ 
-    display: flex; 
-    flex-direction: column; 
-} 
-
-.newsletter span:nth-child(2){ 
-    font-size: 12px; 
-    font-weight: 300;
-} 
-
-.newsletter form{ 
-    margin: 20px 0px;
-} 
-
-.newsletter form input{ 
-    height: 40px; 
-    width: 17vw; 
-    padding: 0 15px; 
-    outline: none;
-} 
-
-.newsletter form button{ 
-    height: 40px; 
-    width: 5rem; 
-    color: white; 
-    background-color: black; 
-    border: none;
-} 
-
-.social-icons{ 
-    display: flex; 
-} 
-
-.social-icons li{ 
-    list-style: none; 
-    margin: 0 12px;
-} 
-
-.social-icons li a{ 
-    text-decoration: none; 
-    color: black; 
-    font-size: 20px; 
-}
-
-.social-icons li a:hover{ 
-    color: white; 
-} 
-
-hr{ 
-    background-color: white; 
-    border: 1px solid white; 
-    margin: 30px 0;
-}  
-
-.main{ 
-    display: flex; 
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-    padding: 0 30px;
-}
-
-.links{ 
-    margin: 10px 0;
-} 
-
-.links h6{ 
-    font-size: 14px;
-} 
-
-.links ul{ 
-    margin: 10px 0;
-} 
-
-.links li{ 
-    list-style: none; 
-    margin: 4px 0;
-} 
-
-.links li a{ 
-    font-size: 13px; 
-    text-decoration: none; 
-    color: black; 
-    transition: 0.3s ease;
-}
-
-</style>
 
 <header class="header-main"> 
     <div class="header-main-logo">    
@@ -389,15 +18,15 @@ hr{
             <ul> 
                 <li><a href="#">ABOUT US</a></li>  
                 <li><a href="#">FAQs</a></li>   
-                <li><a href="#">PIES</a></li>   
-                <li><a href="#">CAKES</a></li>   
-                <li><a href="#">CUPCAKES</a></li>   
-                <li><a href="#">COOKIES</a></li>  
+                <li><a href="Pies menu/index.html">PIES</a></li>   
+                <li><a href="Cakes menu/index.html">CAKES</a></li>   
+                <li><a href="Cupcakes menu/index.html">CUPCAKES</a></li>   
+                <li><a href="Cookies menu/index.html">COOKIES</a></li>  
             </ul>
         </nav> 
 </div> 
     <div class="header-main-account">
-        <div class="header-main-account-user"></div>
+        <div class="header-main-account-user" a href="Login page Desktop/index.html"></div>
         <div class="header-main-account-shopping"></div>
     </div> 
 </header>
@@ -443,7 +72,7 @@ hr{
         <div class="container">
         <img class="image-four" src="images/cake icon.png" width="200px"> 
         <p>Cakes</p> 
-        <button style="font-size: 25px; background-color: #7e6363; color: white; border-radius: 5px;">View Product</button>
+        <button style="font-size: 25px; background-color: #7e6363; color: white; border-radius: 5px;" a href="Cakes menu/index.html"></a>>View Product</button>
         </div> 
         </div> 
 
@@ -451,7 +80,7 @@ hr{
         <img class="image-five" src="images/chocolate cookies.jpg" width="400px;">  
      </div> 
      <div class="text-one"> 
-        <h2>OPENING HOURS</h2><hr> 
+        <h2>Opening Hours</h2><hr> 
         <p>Mon-Fri: 8:00 AM-6:00 PM <br></br>  
            Sat: 9:00 AM-5:00 PM <br></br> 
            Sun: CLOSED 
