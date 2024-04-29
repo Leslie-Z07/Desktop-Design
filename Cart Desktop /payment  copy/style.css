@@ -1,0 +1,277 @@
+body{
+    background-color: #FEECE2;
+}  
+
+a { 
+    cursor: pointer;
+} 
+
+.header-main { 
+    width: 100%; 
+    height: 115px; 
+    background-color: white; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.header-main-logo {  
+    width: fit-content;
+    width: 120px; 
+    height: 100%; 
+} 
+
+.header-main-nav { 
+    width: 120px; 
+}
+
+.header-main-nav ul { 
+    list-style: none; 
+} 
+
+.header-main-nav ul li { 
+    display: inline; 
+    float: left; 
+}
+
+.header-main-nav ul li a {  
+    padding: 0 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 60px;
+}
+    
+.header-main-logo { 
+    width: fit-content; 
+    height: 100%; 
+    padding-left: 60px;
+    display: flex; 
+}   
+
+.header-main-logo img { 
+    align-self: center;
+}
+
+.header-main-nav { 
+    width: fit-content; 
+    height: 100%; 
+} 
+
+.header-main-account { 
+    width: fit-content; 
+    height: 100%; 
+    padding-right: 60px; 
+    display: flex;  
+    align-items: center; 
+    column-gap: 10px;
+} 
+
+.header-main-account-user { 
+    width: 50px; 
+    height: 50px; 
+    background-image: url(images/user\ copy.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.header-main-account-shopping { 
+    width: 55px; 
+    height: 55px; 
+    background-image: url(images/shopping-bag\ copy.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+} 
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+} 
+
+.container{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;  
+    padding: 25px;
+} 
+
+.container form { 
+    width: 700px; 
+    padding: 40px; 
+    background: white; 
+    border-radius: 10px;
+} 
+
+form .row { 
+    display: flex; 
+    gap: 15px; 
+    flex-wrap: wrap;
+} 
+
+.row .column { 
+    flex: 1 1 250px;
+}
+
+.column .title { 
+    font-size: 20px; 
+    color: #333; 
+    text-transform: uppercase; 
+    margin-bottom: 5px;
+} 
+
+.column .input-box {
+    margin: 15px 0;
+}  
+
+.input-box span { 
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.input-box input { 
+    width: 100%; 
+    padding: 10px 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    font-size: 15px;
+} 
+
+.column .flex { 
+    display: flex; 
+    gap: 15px;
+}  
+
+.flex .input-box { 
+    margin-top: 5px;
+}  
+
+.input-box img { 
+    height: 34px;  
+    width: 160px;
+    margin-top: 5px; 
+    filter: drop-shadow(0 0 1px #000);
+}
+
+form .btn {
+    width: 100%; 
+    padding: 12px; 
+    background: black; 
+    border: none; 
+    outline: none; 
+    border-radius: 6px; 
+    font-size: 17px; 
+    color: white; 
+    margin-top: 5px; 
+    cursor: pointer; 
+    transition: .5s;
+} 
+
+form .btn:hover { 
+    background: #7E6363;
+}  
+
+body-three{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto,' bold;
+}  
+
+footer{ 
+    background: #7e6363; 
+    color: black; 
+    padding: 2rem 16vw;
+} 
+
+.newsletter{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    font-family: 'Roboto';
+}
+
+.newsletter h2{ 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+.newsletter span:nth-child(2){ 
+    font-size: 12px; 
+    font-weight: 300;
+} 
+
+.newsletter form{ 
+    margin: 20px 0px;
+} 
+
+.newsletter form input{ 
+    height: 40px; 
+    width: 17vw; 
+    padding: 0 15px; 
+    outline: none;
+} 
+
+.newsletter form button{ 
+    height: 40px; 
+    width: 5rem; 
+    color: white; 
+    background-color: black; 
+    border: none;
+} 
+
+.social-icons{ 
+    display: flex; 
+} 
+
+.social-icons li{ 
+    list-style: none; 
+    margin: 0 12px;
+} 
+
+.social-icons li a{ 
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+}
+
+.social-icons li a:hover{ 
+    color: white; 
+} 
+
+hr{ 
+    background-color: white; 
+    border: 1px solid white; 
+    margin: 30px 0;
+}  
+
+.main{ 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    padding: 0 30px;
+}
+
+.links{ 
+    margin: 10px 0;
+} 
+
+.links h6{ 
+    font-size: 14px;
+} 
+
+.links ul{ 
+    margin: 10px 0;
+} 
+
+.links li{ 
+    list-style: none; 
+    margin: 4px 0;
+} 
+
+.links li a{ 
+    font-size: 13px; 
+    text-decoration: none; 
+    color: black; 
+    transition: 0.3s ease;
+}
