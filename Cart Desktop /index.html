@@ -4,60 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title> 
+    <title>Cart</title> 
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/main.css">  
     <script src="https://kit.fontawesome.com/6ee8b7b925.js" crossorigin="anonymous"></script> 
     <link href="style.css" rel="stylesheet"> 
 </head> 
- 
-    <header class="header-main"> 
-        <div class="header-main-logo">    
-            <img src="images/ms. Jackson's logo copy.png" width="160" height="100" alt="logo"></div>
-            <nav class="header-main-nav"> 
-                <ul> 
-                    <li><a href="#">ABOUT US</a></li>  
-                    <li><a href="#">FAQs</a></li>   
-                    <li><a href="#">PIES</a></li>   
-                    <li><a href="#">CAKES</a></li>   
-                    <li><a href="#">CUPCAKES</a></li>   
-                    <li><a href="#">COOKIES</a></li>  
-                </ul>
-            </nav> 
+
+<header class="header-main"> 
+    <div class="header-main-logo">    
+        <img src="images/ms. Jackson's logo copy.png" width="160" height="100" alt="logo"></div>
+        <nav class="header-main-nav"> 
+            <ul> 
+                <li><a href="#">ABOUT US</a></li>  
+                <li><a href="#">FAQs</a></li>   
+                <li><a href="#">PIES</a></li>   
+                <li><a href="#">CAKES</a></li>   
+                <li><a href="#">CUPCAKES</a></li>   
+                <li><a href="#">COOKIES</a></li>  
+            </ul>
+        </nav> 
+</div> 
+    <div class="header-main-account">
+        <div class="header-main-account-user"></div>
+        <div class="header-main-account-shopping"></div>
     </div> 
-        <div class="header-main-account">
-            <div class="header-main-account-user"></div>
-            <div class="header-main-account-shopping"></div>
-        </div> 
-    </header>
-</head> 
+</header>
 
-<body-one> 
-    <div class="wrapper">
-        <form action=""> 
-            <h1>Login</h1>
-            <div class="input-box"> 
-                <input type="text" placeholder="Username" 
-                required> 
+<div class="small-containter cart-page">
+
+<table>
+    <tr>
+        <th>Product</th> 
+        <th>Quantity</th>  
+        <th>Subtotal</th> 
+       
+    </tr> 
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/CHOCOLATE-CHIP-COOKIES copy.jpg" width="200px";> 
+                <div>
+                    <p>Chocolate Chip Cookies</p> 
+                    <small>Price: $12.98</small>  
+                    <br>
+                    <a href="">Remove</a> 
+                </div>
             </div>
-            <div class="input-box"> 
-                <input type="password" 
-                placeholder="Password" required> 
-            </div> 
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label> 
-                <a href="#">Forgot password?</a>
-            </div> 
-
-            <button type="submit" class="btn">Login</button> 
-
-            <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td>$12.98</td>
+    </tr> 
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/chocolate pie copy 3.jpg" width="200px";> 
+                <div>
+                    <p>Minny's Chocolate Pie</p> 
+                    <small>Price: $8.99</small>  
+                    <br>
+                    <a href="">Remove</a> 
+                </div>
             </div>
-        </form>
-    </div>
-    
-</body-one>  
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td>$8.99</td>
+    </tr> 
+    <tr>
+        <td>
+            <div class="cart-info">
+                <img src="images/Lemon-Cupcakes copy.jpg" width="200px";> 
+                <div>
+                    <p>Lemon Cupcakes</p> 
+                    <small>Price: $35.00</small>  
+                    <br>
+                    <a href="">Remove</a> 
+                </div>
+            </div>
+        </td> 
+        <td><input type="number" value="1"></td> 
+        <td>$35.00</td>
+    </tr>
+</table> 
+
+<div class="total-price">
+
+    <table>
+        <tr> 
+            <td>Subtotal</td> 
+            <td>$56.97</td> 
+        </tr> 
+        <tr> 
+            <td>Tax</td> 
+            <td>$35.00</td> 
+        </tr> 
+        <tr> 
+            <td>Total</td> 
+            <td>$91.97</td> 
+        </tr>
+    </table>
+
+</div>
+
+</div> 
 
 <body-three> 
     <footer> 
@@ -133,9 +182,7 @@
         </footer>
     </body-three>
 
-<body> 
-
+<body>
+    
 </body>
 </html>
-
-

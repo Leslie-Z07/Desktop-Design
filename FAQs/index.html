@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title> 
+    <title>Frequently Asked Questions</title> 
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/main.css">  
     <script src="https://kit.fontawesome.com/6ee8b7b925.js" crossorigin="anonymous"></script> 
@@ -33,31 +33,56 @@
 </head> 
 
 <body-one> 
-    <div class="wrapper">
-        <form action=""> 
-            <h1>Login</h1>
-            <div class="input-box"> 
-                <input type="text" placeholder="Username" 
-                required> 
+    <ul id="accordion"> 
+        <li>
+            <label for="first">Do you offer gluten-free options? <span>&#x3e;</span></label> 
+            <input type="radio" name="accordion" id="first" checked> 
+            <div class="content">
+                <p>Yes, we have a delightful selection of gluten-free treats, including pies, cakes, cupcakes, 
+                    and cookies, ensuring everyone can enjoy the goodness of our bakery.</p>
             </div>
-            <div class="input-box"> 
-                <input type="password" 
-                placeholder="Password" required> 
-            </div> 
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label> 
-                <a href="#">Forgot password?</a>
-            </div> 
-
-            <button type="submit" class="btn">Login</button> 
-
-            <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
+        </li> 
+        <li>
+            <label for="second">How can I stay updated on seasonal 
+                menu changes? <span>&#x3e;</span></label> 
+            <input type="radio" name="accordion" id="second"> 
+            <div class="content">
+                <p>To stay updated on the latest additions and rotations to our menu, we recommend subscribing 
+                    to our newsletter. Our newsletter subscribers receive exclusive updates on seasonal specials, new 
+                product launches, and exciting promotions.</p>
             </div>
-        </form>
-    </div>
-    
-</body-one>  
+        </li> 
+        <li>
+            <label for="third">Are your ingredients locally sourced? <span>&#x3e;</span></label> 
+            <input type="radio" name="accordion" id="third"> 
+            <div class="content">
+                <p>Yes, we take good pride in sourcing our ingredients locally whenever possible. We believe in supporting our community 
+                    and promoting sustainability by sourcing fresh, high-quality ingredients from local farmers and suppliers.</p>
+            </div>
+        </li> 
+        <li>
+            <label for="fourth">What's the most popular item 
+                on your menu? <span>&#x3e;</span></label> 
+            <input type="radio" name="accordion" id="fourth"> 
+            <div class="content">
+                <p>Our most popular item on our menu is undoubtedly our famous Minny's Chocolate Pie. With its rich, 
+                    velvety chocolate filling and flaky, buttery crust, it's a timeless favorite that keeps our customers 
+                    coming back for more.</p>
+            </div>
+        </li> 
+        <li>
+            <label for="fifth">Can I pre-order large quantities of 
+                baked goods for corporate events or 
+                parties? <span>&#x3e;</span></label> 
+            <input type="radio" name="accordion" id="fifth"> 
+            <div class="content">
+                <p>Yes, we're delighted to accommodate pre-orders for large quantities of baked goods for corporate 
+                    events, parties, or any special occasion! Whether you're planning a corporate gathering, a birthday celebration, 
+                    or a wedding reception, we're here to help make your event memorable with our delicious treats.</p>
+            </div>
+        </li>
+    </ul>
+</body-one> 
 
 <body-three> 
     <footer> 
@@ -133,9 +158,8 @@
         </footer>
     </body-three>
 
-<body> 
+<body>
 
-</body>
+</body> 
+
 </html>
-
-
